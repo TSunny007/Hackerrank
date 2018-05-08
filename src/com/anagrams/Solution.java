@@ -23,7 +23,7 @@ public class Solution {
         int sum = count.values().stream().mapToInt(Math::abs).sum();
         return sum;
     }
-  
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String a = in.next();
